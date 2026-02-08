@@ -11,7 +11,7 @@ export default function CurrencyConverter() {
   const [amount, setAmount] = useState(1);
   const [from, setFrom] = useState("USD");
   const [to, setTo] = useState("EUR");
-  
+
   const baseValue = useMemo(() => {
     return amount * rates[from];
   }, [amount, from]);
