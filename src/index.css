@@ -1,4 +1,14 @@
-button:active {
-    transform: rotate(180deg);
-    transition: transform 0.2s ease;
+.card-container {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 400px;
+    margin: 2rem auto;
+    border: 1px solid #f0f0f0;
+}
+
+.body {
+    background: black;
+    color: black;
 }
