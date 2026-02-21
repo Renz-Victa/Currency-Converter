@@ -10,3 +10,8 @@ Built with a focus on accuracy and clean UI design, which demonstrates responsiv
 - 📱 Fully responsive design (mobile & desktop friendly)
 - ⚡ Fast and lightweight performance
 
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- React
