@@ -19,30 +19,33 @@ export default function CurrencyConverter() {
   const converted = baseValue / rates[to];
 
   return (
-    <form>
-      <input
-        type="number"
-        value={amount}
-        onChange={(e) => setAmount(Number(e.target.value))}
-      />
+    <>
+      <h1>CurrencyConverter</h1>
+      <form>
+        <input
+          type="number"
+          value={amount}
+          onChange={(e) => setAmount(Number(e.target.value))}
+        />
 
-      <select value={from} onChange={(e) => setFrom(e.target.value)}>
-        <option value="USD">USD</option>
-        <option value="EUR">EUR</option>
-        <option value="GBP">GBP</option>
-        <option value="JPY">JPY</option>
-      </select>
+        <select value={from} onChange={(e) => setFrom(e.target.value)}>
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
+        </select>
 
-      <select value={to} onChange={(e) => setTo(e.target.value)}>
-        <option value="USD">USD</option>
-        <option value="EUR">EUR</option>
-        <option value="GBP">GBP</option>
-        <option value="JPY">JPY</option>
-      </select>
+        <select value={to} onChange={(e) => setTo(e.target.value)}>
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
+        </select>
 
-      <p>
-        {converted.toFixed(2)} {to}
-      </p>
-    </form>
+        <p>
+          {converted.toFixed(2)} {to}
+        </p>
+      </form>
+    </>
   );
 }
