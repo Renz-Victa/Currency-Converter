@@ -46,6 +46,9 @@ export default function CurrencyConverter() {
           {converted.toFixed(2)} {to}
         </p>
       </form>
+      <footer style={{ textAlign: "center", padding: "1rem", position: "absolute", bottom: "0" }}>
+        <p>© 2026 Your Name. All rights reserved.</p>
+      </footer>
     </>
   );
 }
