@@ -31,6 +31,10 @@ form {
     border: 1px;
 }
 
+form:hover {
+    transform: translateY(-2px);
+}
+
 input {
     padding: 10px;
     border-radius: 8px;
@@ -42,6 +46,7 @@ input {
 
 input:hover {
     background-color: rgb(225, 255, 180);
+    transform: translateY(-4px);
 }
 
 select {
@@ -57,6 +62,7 @@ select {
 select:hover {
     background-color: rgb(225, 255, 180);
     transition: 0.5s;
+    transform: translateY(-4px);
 }
 
 h1 {
