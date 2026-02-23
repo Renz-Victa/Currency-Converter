@@ -31,7 +31,31 @@ form {
     border: 1px solid #d1b8b8;
 }
 
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s ease;
+}
 
+input:focus {
+    border-color: #4f46e5;
+}
+
+select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+select:focus {
+    border-color: green;
+}
 
 h1 {
     text-align: center;
