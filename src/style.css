@@ -18,7 +18,7 @@ footer {
 footer ul {
     list-style: none;
     padding: 20px;
-    margin: 0;
+    margin: 10px;
 }
 
 form {
@@ -28,7 +28,7 @@ form {
     border-radius: 16px;
     font-family: Arial, sans-serif;
     box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
-    border: 1px solid #d1b8b8;
+    border: 1px;
 }
 
 input {
@@ -40,24 +40,21 @@ input {
     transition: 0.3s ease;
 }
 
-input:focus {
-    border-color: #4f46e5;
-}
-
 select {
     padding: 10px;
     border-radius: 8px;
-    border: 1px solid #ddd;
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s ease;
-}
-
-select:focus {
-    border-color: green;
+    margin-left: 10px;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 50px;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
 }
