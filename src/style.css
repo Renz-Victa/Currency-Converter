@@ -68,3 +68,11 @@ p {
     text-align: center;
     font-weight: bold;
 }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 25px;
+}

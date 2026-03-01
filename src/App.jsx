@@ -22,22 +22,9 @@ export default function CurrencyConverter() {
   return (
     <>
       <nav className="navbar">
-        <ul>
-          <li className="nav-item">
-            <a href="#">Dashboard</a>
-          </li>
-          <li className="nav-item">
-            <a href="#">Widgets</a>
-          </li>
-          <li className="nav-item">
-            <a href="#">Apps</a>
-            <ul className="sub-menu" aria-label="Apps">
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-            </ul>
-          </li>
-        </ul >
+        <a href="#">Dashboard</a>
+        <a href="#">Apps</a>
+        <a href="#">Widgets</a>
       </nav >
 
       <h1>CurrencyConverter</h1>
