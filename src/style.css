@@ -6,10 +6,8 @@ footer {
     bottom: 0;
     width: 100%;
     gap: 25px;
-    margin-bottom: 10px;
     list-style: none;
     padding: 0;
-    margin: 0;
     text-decoration: none;
 }
 
@@ -17,11 +15,14 @@ footer a {
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 16px;
+    margin-bottom: 50px;
+    gap: 25px 15px;
 }
 
 footer a:hover {
-    background-color: aquamarine;
+    background-color: rgb(161, 251, 221);
     transition: 0.5s ease;
+    transform: translateY(-5px);
 }
 
 .footer-section {
@@ -32,8 +33,8 @@ footer a:hover {
 
 li {
     list-style: none;
-    margin: 10px;
-    gap: 20px;
+    gap: 25px;
+    margin: 20px;
 }
 
 form {
