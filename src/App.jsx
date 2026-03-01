@@ -1,6 +1,5 @@
 import React, { useState, useMemo } from 'react';
 import Footer from './Footer';
-import Navbar from './navbar';
 
 export default function CurrencyConverter() {
   const rates = {
@@ -25,21 +24,21 @@ export default function CurrencyConverter() {
       <nav className="navbar">
         <ul>
           <li className="nav-item">
-            <button aria-expanded="false">Dashboard</button>
+            <a href="#">Dashboard</a>
           </li>
           <li className="nav-item">
-            <button aria-expanded="false">Widgets</button>
+            <a href="#">Widgets</a>
           </li>
           <li className="nav-item">
-            <button aria-expanded="false">Apps</button>
+            <a href="#">Apps</a>
             <ul className="sub-menu" aria-label="Apps">
               <li><a href="#"></a></li>
               <li><a href="#"></a></li>
               <li><a href="#"></a></li>
             </ul>
           </li>
-        </ul>
-      </nav>
+        </ul >
+      </nav >
 
       <h1>CurrencyConverter</h1>
       <form>
