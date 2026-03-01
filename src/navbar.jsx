@@ -12,6 +12,9 @@ export const navbar = () => {
                 </li>
                 <li className="nav-item">
                     <button aria-expanded="false">Apps</button>
+                    <ul className="sub-menu" aria-label="Apps">
+                        <li><a href="#"></a></li>
+                    </ul>
                 </li>
             </ul>
         </nav>
