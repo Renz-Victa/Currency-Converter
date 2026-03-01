@@ -4,15 +4,15 @@ export const Footer = () => {
     return (
         <footer>
             <div className="footer-section">
-                <ul className="first-row">
+                <ul className="footer">
                     <li><a href="#">Dashboard</a></li>
                     <li><a href="#">Services</a></li>
                 </ul>
-                <ul className="second-row">
+                <ul className="footer">
                     <li><a href="#">Watch Videos</a></li>
                     <li><a href="#">Discord</a></li>
                 </ul>
-                <ul className="third-row">
+                <ul className="footer">
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Terms & Conditions</a></li>
                 </ul>
