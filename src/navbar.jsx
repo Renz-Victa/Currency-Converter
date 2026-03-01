@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 
-export const navbar = () => {
+export const Navbar = () => {
     return (
         <nav className="navbar">
             <ul>
@@ -14,6 +14,8 @@ export const navbar = () => {
                     <button aria-expanded="false">Apps</button>
                     <ul className="sub-menu" aria-label="Apps">
                         <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
                     </ul>
                 </li>
             </ul>
@@ -21,4 +23,4 @@ export const navbar = () => {
     )
 };
 
-export default navbar;
+export default Navbar;
