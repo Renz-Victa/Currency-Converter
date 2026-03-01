@@ -1,19 +1,19 @@
 footer {
     position: fixed;
-    padding: 15px;
     justify-content: center;
     text-align: center;
     font-family: Arial, sans-serif;
     bottom: 0;
     width: 100%;
-    align-items: space;
     gap: 25px;
-    background-color: rgb(132, 221, 192);
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .footer-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    border-bottom: 1px solid black;
 }
 
 li {
