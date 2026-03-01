@@ -8,6 +8,7 @@ footer {
     width: 100%;
     align-items: space;
     gap: 25px;
+    background-color: rgb(132, 221, 192);
 }
 
 .footer-section {
@@ -70,9 +71,25 @@ p {
 }
 
 .navbar {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding: 25px;
+    display: flex;
+    gap: 20px;
+    background: rgb(130, 218, 189);
+    padding: 10px 20px;
+    border-radius: 20px
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.5s ease;
+}
+
+.nav-item:hover {
+    background-color: rgb(212, 236, 236);
+    transform: translateY(-2px);
 }
