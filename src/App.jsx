@@ -9,7 +9,7 @@ export default function CurrencyConverter() {
     JPY: 140
   };
 
-  const [amount, setAmount] = useState(1);
+  const [amount, setAmount] = useState(0);
   const [from, setFrom] = useState("USD");
   const [to, setTo] = useState("EUR");
 
@@ -27,7 +27,29 @@ export default function CurrencyConverter() {
         <a href="#" class="nav-item">Widgets</a>
       </nav >
 
-      <h1>CurrencyConverter</h1>
+      <h1 class="text">
+        <span>C</span>
+        <span>u</span>
+        <span>r</span>
+        <span>r</span>
+        <span>e</span>
+        <span>n</span>
+        <span>c</span>
+        <span>y</span>
+        <span>&nbsp;</span>
+        <span>C</span>
+        <span>o</span>
+        <span>n</span>
+        <span>v</span>
+        <span>e</span>
+        <span>r</span>
+        <span>t</span>
+        <span>e</span>
+        <span>r</span>
+      </h1>
+
+      <h1>Currency Converter</h1>
+
       <form>
         <input
           type="number"

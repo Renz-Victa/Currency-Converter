@@ -22,7 +22,6 @@ footer a {
 footer a:hover {
     background-color: rgb(161, 251, 221);
     transition: 0.5s ease;
-    transform: translateY(-5px);
 }
 
 .footer-section {
