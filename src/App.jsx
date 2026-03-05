@@ -27,7 +27,7 @@ export default function CurrencyConverter() {
         <a href="#" class="nav-item">Widgets</a>
       </nav >
 
-      <h1 class="text">
+      <h1 className="wave">
         <span>C</span>
         <span>u</span>
         <span>r</span>
