@@ -107,3 +107,8 @@ p {
     background-color: rgb(212, 236, 236);
     transform: translateY(-2px);
 }
+
+.wave span {
+    display: inline-block;
+    animation: wave 1s ease-in-out infinite;
+}

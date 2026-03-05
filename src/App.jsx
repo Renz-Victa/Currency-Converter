@@ -48,8 +48,6 @@ export default function CurrencyConverter() {
         <span>r</span>
       </h1>
 
-      <h1>Currency Converter</h1>
-
       <form>
         <input
           type="number"
